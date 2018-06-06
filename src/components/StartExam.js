@@ -5,7 +5,8 @@ export default class StartExam extends Component{
     render(){
         return(
             <div >
-            <p>step4</p>
+            <h1>Important Notice</h1>
+            
             </div>
         )
     }

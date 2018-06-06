@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Nav, Navbar, NavItem } from "react-bootstrap";
 import "./Home.css"
 
 export default class Home extends Component{
