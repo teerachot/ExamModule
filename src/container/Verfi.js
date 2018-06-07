@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Form,FormGroup,Col,FormControl,Checkbox,Button  } from "react-bootstrap";
-import {Link} from ""
-
+import { Form,FormGroup,Col,FormControl,Button,Grid,PageHeader  } from "react-bootstrap";
+import {Link} from 'react-router-dom';
+import './Verfi.css'
 export default class Verfi extends Component{
     render(){
         return(
-          <div>
-              <div>
-            <h1>Verify Your Name</h1>
-            </div>
+          <Grid>
+               <PageHeader className="textControlheader">
+             <small>Verify Your Name</small>
+             </PageHeader>
             <Form horizontal>
             
             <FormGroup controlId="formHorizontalFirstName">
@@ -36,12 +36,12 @@ export default class Verfi extends Component{
             </FormGroup> */}
           
             <FormGroup>
-              <Col smOffset={2} sm={8}>
-                <Button >Verify</Button>
+              <Col smOffset={2} sm={8} md={3}>
+              <Link to="/noties"> <Button type="submit">Verify</Button></Link>
               </Col>
             </FormGroup>
           </Form>
-          </div>
-        )
+        </Grid>
+        );
     }
 }
