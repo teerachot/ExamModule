@@ -21,7 +21,7 @@ render() {
             <ControlLabel className="textCer">Genstat</ControlLabel>
           </Col>
           <Col md={7}>
-            <div><Stepper steps={steps} activeStep={3} /></div>
+            <div><Stepper steps={steps} activeStep={2} /></div>
           </Col>
         </Row>
         <Row>

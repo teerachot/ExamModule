@@ -8,11 +8,16 @@ import StartExam from "./container/StartExam";
 import Exam from "./container/Exam";
 import ExamFinish from "./container/ExamFinish";
 import DashBoard from "./container/DashBoard";
-
+import ASremlCer from "./container/ASremlCer";
+import BICer from "./container/BICer";
+import GenStatCer from "./container/GenStatCer";
 
 export default () =>
     <Switch>
-        <Route path="/" exact component={Home}/> 
+        <Route path="/" exact component={Home}/>
+        <Route path="/GenStatCer"  exact component={GenStatCer}/> 
+        <Route path="/ASremlCer"  exact component={ASremlCer}/> 
+        <Route path="/BICer"  exact component={BICer}/> 
         <Route path="/finish" exact component={ExamFinish}/>
         <Route path="/cerfiexams" exact component={Exam}/>
         <Route path="/Exam" exact component={RegExam}/>

@@ -59,13 +59,13 @@ export default class RegExam extends Component {
                  <Grid>
                 <Row className="picCer" >
                     <Col xs={4} md={4}>
-                   <Button ><Link to="/payment"><Image src="http://www.biosci.global/wp-content/uploads/2016/10/Genstat-product-logo.png" responsive /></Link></Button>
+                   <Button ><Link to="/GenStatCer"><Image src="http://www.biosci.global/wp-content/uploads/2016/10/Genstat-product-logo.png" responsive /></Link></Button>
                     </Col>
                     <Col xs={4} md={4}>
-                    <Button ><Link to="/payment"><Image src="http://www.biosci.global/wp-content/uploads/2016/11/Asreml-product-logo.png" responsive /></Link></Button>
+                    <Button ><Link to="/ASremlCer"><Image src="http://www.biosci.global/wp-content/uploads/2016/11/Asreml-product-logo.png" responsive /></Link></Button>
                     </Col>
                     <Col xs={4} md={4}>
-                    <Button ><Link to="/payment"> <Image src="http://www.biosci.global/wp-content/uploads/2016/12/IBP_No_BG-H-60.png" responsive /></Link></Button>
+                    <Button ><Link to="/BICer"> <Image src="http://www.biosci.global/wp-content/uploads/2016/12/IBP_No_BG-H-60.png" responsive /></Link></Button>
                     </Col>
                 </Row>
                 {/* <Row className="picCer">
